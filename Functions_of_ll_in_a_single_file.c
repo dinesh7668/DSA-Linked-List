@@ -125,7 +125,7 @@ struct node *del_ind(struct node *head, int ind)
     free(ptr);
     return head;
 }
-
+// mamin fn start from here
 int main()
 {
     struct node *head;
@@ -187,4 +187,5 @@ int main()
     printf("\n                  -::-::-::-::-Traversal, Insertion and Deletion operation done in a Linked List-::-::-::-::-\n");
 
     return 0;
+
 }
